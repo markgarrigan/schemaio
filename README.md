@@ -1,5 +1,7 @@
 # Schema.io Sinatra App
 
+This is a starter app that I'm using as a proxy to the [schema.io][1] api. The actual app is a javascript app that makes calls to this app, which makes the actual calls to the [schema.io][1] api.
+
 ```
 git clone git@github.com:markgarrigan/schemaio.git
 
@@ -54,3 +56,11 @@ rackup
 ```
 bundle exec unicorn -c unicorn.rb -D
 ```
+
+## schemaio.rb
+
+This is a very rudimentary ruby client to interface with the [schema.io][1] api. It is not fully tested nor does it claim to be a complete wrapper for the api. It's just to get started using the api. Feel free to enhance it.
+
+https://github.com/markgarrigan/schema-ruby-client
+
+[1]: http://schema.io
