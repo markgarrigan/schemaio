@@ -28,7 +28,11 @@ production:
   key: '<clientkey>'
 ```
 
-If you plan on using unicorn to run the app. There is an example unicorn.rb file which will need the path to your app.
+If you plan on using unicorn to run the app. There is an example ```unicorn.rb``` file which will need the path to your app.
+
+Copy ```unicorn.rb.example``` to a new file and name it ```unicorn.rb```
+
+Update the ```@dir``` to the path of your app.
 
 ```
 # ./unicorn.rb.example
