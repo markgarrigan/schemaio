@@ -1,0 +1,7 @@
+development: &common_settings
+  user: '<clientid>'
+  key: '<clientkey>'
+
+production:
+  <<: *common_settings
+  key: '<clientkey>'
