@@ -1,4 +1,4 @@
-# set path to app that will be used to configure unicorn,
+# set path to app that will be used to configure unicorn
 @dir = "/path/to/app"
 
 worker_processes 2
